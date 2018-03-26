@@ -1,19 +1,68 @@
 # Jobs
-# Springfield Nuclear Power Plant
-- company: Springfield Nuclear Power Plant
-  position: Safety Inspector
-  duration: Nov, 1980 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>Ate lots of donuts</li><li>Fell asleep rarely</li><li>Left promptly at end of day (sometimes earlier)</li></ul>
+# Architect, Intuit
+- company: Intuit
+  position: Architect, Developer Platform, Small Business Group 
+  duration: Jan, 2017 &mdash; Present
+  summary: Laying Target State Architecture for Intuit Developer Portal and Intuit App Store.<ul class="resume-item-list"><li>Decomposing the monolith from internal data centers into highly available micro services in AWS (Spring Boot, MySQL RDS, ElastiCache, ActiveMQ, S3, Lambda and EC2).</li><li>Partnering with Product to deliver awesome customer experience.</li><li>Enabling the teams to move faster to AWS (Training, Mentoring, Building Shared Libraries, <a href="https://github.com/cloudreach/sceptre">Sceptre</a>)</li><li>Providing Architecture for migrating Developers from OAuth 1 to OAuth 2</li><li>Helping the teams to decompose and build isolated services with polyglot persistence model * Being application security champion for the team</li><li>Mentored engineers in the team to become better in AWS and Distributed systems with a goal of making my "Architect" role redundant.</li></ul>
 
-# Windmill Crank Operator
-- company: Sir Putt-A-Lot's Merrie Olde Fun Centre
-  position: Safety Inspector
-  duration:  Jun, 1978 &mdash; Sept, 1979
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+# Principal Engineer
+- company: Intuit
+  position: Principal Software Engineer, Small Business Group
+  duration:  Jan, 2014 &mdash; Dec, 2016 
+  summary: <ul class="resume-item-list"><li>Drove the initiative "break the monolith" for <a href="https://payroll.intuit.com/">QuickBooks Payroll</a>. </li><li>Decomposed a logical slice of the application into RESTFul service - a pattern for the team to continue</li><li>Instrumental in on-boarding the team we acquired - ItDuzzit into <a href="https://appconnect.intuit.com">Intuit AppConnect</a> - a cloud integration platform (similar to IFTTT) hosted on AWS.</li><li>Scaled the application into isolated clusters based on their logical functions. No. of transactions improved from few 10s to 250 API calls per second. This platform was used for building Apps to connect QuickBooks customers to external applications in the likes of Paypal & Square (Spring, Jersey, MySQL RDS, AWS S3 & DynamoDB).</li><li>Implementing Node Manager to manage health of services & self heal in a pool of servers</li><li>Building tools to collect metrics on DB calls (using AOP) and influencing team to challenge the status quo</li><li>Cloud steward for taking multiple projects from internal Data Centers to Public Cloud (AWS). Solid sense for security, resiliency, metrics, high availability and disaster recovery (HADR)</li>
+
+# Staff Engineer 
+- company: Intuit
+  position: Staff Engineer, Small Business Group
+  duration:  Aug, 2011 &mdash; Dec, 2013
+  summary: <ul class="resume-item-list"><li>Core contributor for building APIs for QuickBooks Desktop in the Cloud. Customers will have an agent to have two way sync between their Desktop and Intuit Cloud. This enabled 3rd party developers to build applications for QuickBooks Desktop customers.</li><li>Used JMS to sync data between Desktop and Cloud</li><li>Used CometD to push notifications to Desktop Application. This is for notifying customers whenever there is a change to their data in the cloud</li>
+
+# Principal Engineer
+- company: Nextag
+  position: Principal Engineer 
+  duration:  Apr, 2011 &mdash; Aug, 2011
+  summary: <ul class="resume-item-list"><li>Core contributor of Nextag Stores redesign for PCI Compliance</li><li>Participated in PCI audit from engineering & successfully got approval for Level 1</li>
+
+# Sr. Software Engineer
+- company: Nextag
+  position: Sr. Software Engineer 
+  duration:  Jan, 2010 &mdash; Apr, 2011
+  summary: <ul class="resume-item-list"><li> Led Payment System architecture/design/development/testing - Nextag Stores </li><li> Built integration for Stores Application with Payment Gateways (Verifi)</li><li>Building Integration test suite using JUnit with Spring framework for Payment module</li><li>Financial Accounts are managed as Double entry ledger system</li><li>Built back-end services, using Spring 3.0 + Hibernate 3.3</li><li>Automated comprehensive integration test suite using JUnit 4 with Spring</li><li>Built stock inventory management system for Nextag stores</li><li>Active contributor to Code Reviews & infrastructure development such as Caching</li>
+
+# Director
+- company: Stylehive Inc.,
+  position: Director of Technology
+  duration:  Dec, 2007 &mdash; Dec, 2009
+  summary: Stylehive is a social networking website for people interested in fashion & shopping. It is a mixture of facebook, twitter & digg focused on fashion, style & design. <ul class="resume-item-list"><li> Design, development, testing & maintaining stylehive.com</li><li>improving the application infrastructure for high availability </li><li>Spam detection & filtering through scripts - custom keyword based algorithms to reject potential spams</li><li> Integrating stylehive with other social networking sites such as twitter & facebook</li>
+
+# Technical Architect
+- company: MindTree 
+  position: Technical Architect
+  duration:  Aug, 2007 &mdash; Dec, 2007
+  summary: <ul class="resume-item-list"><li>Worked for TravelCLICK in architecting their Hospitality Tool Kit application.</li><li>Worked Sabre Travel Network to redesign their Travel Itinerary website <a href="https://www.virtuallythere.com">VirtuallyThere</a></li>
+
+# Software Development Manager
+- company: eBay
+  position: Software Development Manager (MindTree)
+  duration:  Sep, 2005 &mdash; June, 2007
+  summary: <ul class="resume-item-list"><li>Driving complete PDLC, Resource allocation, Task prioritization, monitoring progress, managing risks & streamlining onsite-offshore product delivery</li><li>Closely working with QA, Product Management & UI Designers to achieve common goals.</li><li>Working with architects in arriving at highly scalable software architectures and implementing the same.</li>
+
+# Tech Lead
+- company: Franklin Templeton Investments
+  position: Tech Lead/Manager (MindTree)
+  duration:  Feb, 2003 &mdash; Aug, 2005
+  summary: <ul class="resume-item-list"><li>Build & Release & Configuration Management</li><li>Application Performance Tuning </li><li>Building web application using Java, J2EE frameworks on unix platform & Oracle Database</li>
+
+# Principal Consultant
+- company: MindTree Consulting
+  position: Principal Consultant
+  duration:  Feb, 2001 &mdash; Dec, 2007
+  summary: Through MindTree worked for ATKearney, Franklin Templeton, eBay, TravelCLICK & Sabre Holdings in multiple ecommerce & enterprise apllications at various roles - Software Engineer, Technical Lead, Architect, Configuration/Release Manager, Project Manager & Development Manager
+
+# Developer
+- company: Wipro Technologies
+  position: Software Engineer
+  duration:  Aug 1996 &mdash; Feb, 2001
+  summary: Worked for Fortune 500 clients (GE, Schlumberger to name few) on Engineering. Primarily on Java based Technologies on Unix platform & Oracle 
 
 
-# Front Desk Attendant
-- company: Simpson Lazer Tag
-  position: Front Desk Attendant
-  duration:   Jun, 1975  &mdash; May, 1978
-  summary: Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.
