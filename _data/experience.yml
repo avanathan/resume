@@ -1,8 +1,14 @@
 # Jobs
+# Principal Engineer, Intuit
+- company: Intuit
+  position: Principal Engineer, QuickBooks Self Employed
+  duration: May, 2018 &mdash; Present
+  summary: Contractor Eco System<ul class="resume-item-list"><li>Working on a new Product where it will become a portal for 10M Contractors(Spring Boot, MySQL RDS, Redis(ElastiCache), ActiveMQ, RabbitMQ).</li><li>Partnering with Product Managers design, build & take the Product to Production</li><li>Working with Cross teams with boundaryless leadership with a common goal of delivering delight for customers</li></ul>
+
 # Architect, Intuit
 - company: Intuit
   position: Architect, Developer Platform, Small Business Group 
-  duration: Jan, 2017 &mdash; Present
+  duration: Jan, 2017 &mdash; Apr 2018
   summary: Laying Target State Architecture for Intuit Developer Portal and Intuit App Store.<ul class="resume-item-list"><li>Decomposing the monolith from internal data centers into highly available micro services in AWS (Spring Boot, CloudFormation, Chef, MySQL RDS, ElastiCache, ActiveMQ, S3, Lambda and EC2).</li><li>Partnering with Product to deliver awesome customer experience.</li><li>Enabling the teams to move faster to AWS (Training, Mentoring, Building Shared Libraries, <a href="https://github.com/cloudreach/sceptre">Sceptre</a>)</li><li>Providing Architecture for migrating Developers from OAuth 1 to OAuth 2</li><li>Helping the teams to decompose and build isolated services with polyglot persistence model</li><li>Being application security champion for the team</li><li>Mentored engineers in the team to become better in AWS and Distributed systems with a goal of making my "Architect" role redundant.</li></ul>
 
 # Principal Engineer
