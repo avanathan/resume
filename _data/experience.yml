@@ -7,7 +7,7 @@
 
 # Architect, Intuit
 - company: Intuit
-  position: Architect, <a href="https://developer.intuit.com>Developer Platform</a>, Small Business Group 
+  position: Architect, <a href="https://developer.intuit.com">Developer Platform</a>, Small Business Group 
   duration: Jan, 2017 &mdash; Apr 2018
   summary: Laying Target State Architecture for Intuit Developer Portal and Intuit App Store.<ul class="resume-item-list"><li>Decomposing the monolith from internal data centers into highly available micro services in AWS (Spring Boot, CloudFormation, Chef, MySQL RDS, ElastiCache, ActiveMQ, S3, Lambda and EC2).</li><li>Partnering with Product to deliver awesome customer experience.</li><li>Enabling the teams to move faster to AWS (Training, Mentoring, Building Shared Libraries, <a href="https://github.com/cloudreach/sceptre">Sceptre</a>)</li><li>Providing Architecture for migrating Developers from OAuth 1 to OAuth 2</li><li>Helping the teams to decompose and build isolated services with polyglot persistence model</li><li>Being application security champion for the team</li><li>Mentored engineers in the team to become better in AWS and Distributed systems with a goal of making my "Architect" role redundant.</li></ul>
 
