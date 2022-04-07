@@ -1,0 +1,3 @@
+[submodule "themes/hugo-resume-theme"]
+	path = themes/hugo-resume-theme
+	url = git@github.com:avanathan/hugo-resume-theme.git

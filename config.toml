@@ -1,0 +1,279 @@
+# Page settings
+
+baseURL = "http://example.org/"
+languageCode = "en"
+title = ""
+theme = "hugo-resume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+[params]
+    author = "CowboySmall"
+    description = "Arun Avanathan - Principle Software Engineer, Intuit"
+
+    primaryColor = "#11BA89"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Arun Avanathan"
+        tagline = "Principle Software Engineer, Intuit"
+#        avatar = "arun-avatar.png"
+
+    [params.contact]
+        enable = true
+        location = "Sunnyvale, CA"
+
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:#"
+        text = "arun.avanathan@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://bytesunlimited.org"
+        text = "BytesUnlimited"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Lang - Java, Bash"
+        [[params.skills.list.items]]
+        details = "Cloud - AWS, K8S"
+        [[params.skills.list.items]]
+        details = "DB - MySQL, DynamoDB"
+        [[params.skills.list.items]]
+        details = "DI Containers - Spring Boot"
+        [[params.skills.list.items]]
+        details = "SOA - REST, GraphQL"
+        [[params.skills.list.items]]
+        details = "Design & Develop SaaS products"
+        [[params.skills.list.items]]
+        details = "Expertise - AuthN & AuthZ, Event Drvien Design, Distributed Computing"
+        [[params.skills.list.items]]
+        details = "Others - Async, Messaging, Batch Jobs"
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Masters in Computer Applications"
+        university = "University of Mysore"
+        dates = "1993 - 1996"
+        [[params.education.list]]
+        degree = "BSc Maths and Physics"
+        university = "University of Mysore"
+        dates = "1993 - 1996"
+
+    [params.awards]
+        enable = false
+
+#        [[params.awards.list]]
+#       name = "Award Lorem Ipsum"
+#       body = "Microsoft lorem ipsum"
+#       date = "2019"
+#       [[params.awards.list]]
+#       name = "Award Donec Sodales"
+#       body = "Oracle Aenean"
+#       date = "2017"
+
+    [params.languages]
+        enable = false
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Professional"
+
+    [params.interests]
+        enable = false
+
+        [[params.interests.list]]
+        name = "Climbing"
+        [[params.interests.list]]
+        name = "Snowboarding"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+
+    [params.summary]
+        enable = true
+        [[params.summary.list]]
+        title = "Summary"
+        details = "Experienced in building successful engineering teams, architecting highly scalable API services using Open Source technologies such as Java, Spring Boot. Building cloud based services on AWS. Strong believer of action, automation & speed."
+        [[params.summary.list.items]]
+        details = "Enjoys mentoring high performance engineering teams for 8+ years"
+        [[params.summary.list.items]]
+        details = "Has been architecting (& built) distributed applications in AWS for 7+ years"
+        [[params.summary.list.items]]
+        details = "Built API platform for a SaaS product from scratch"
+        [[params.summary.list.items]]
+        details = "Drives engineering decisions working across different business units/engineering teams"
+        [[params.summary.list.items]]
+        details = "Expertise in architecting & building Backend services"
+        [[params.summary.list.items]]
+        details = "Architected & led teams to migrate monoliths to Microservices to increase time to market, engineering productivity"
+        [[params.summary.list.items]]
+        details = "Exhibits boundaryless leadership working across Business units/teams"
+
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Principle SW Engineer, QuickBooks"
+        dates = "Nov 2020 - Present"
+        company = "Intuit"
+        details = "Driving engineering roadmap for QuickBooks Online related to AuthZ/AuthN"
+        [[params.experience.list.items]]
+        details = "Collaborating with central identity, security & other cross functional teams towards the common goal"
+        [[params.experience.list.items]]
+        details = "Enabling & mentoring team members to achieve their goals"
+        [[params.experience.list.items]]
+        details = "Influencing a team of ~180 engineers to use AuthZ in a consistent way towards target state"
+        [[params.experience.list.items]]
+        details = "Reduced service level dependencies by 60% for QuickBooks online related to identity"
+        [[params.experience.list.items]]
+        details = "Built core libraries to enable dynamic throttling for dependent services - Spring Cloud Config, Consistent Hashing"
+        [[params.experience.list.items]]
+        details = "Learnt about Open Policy Agent (OPA) & how to use it for granular permissions such as ABAC"        
+
+
+        [[params.experience.list]]
+        title = "Principle SW Engineer/Manager, FormFly"
+        dates = "Feb 2019 - Oct 2020"
+        company = "Intuit"
+        details = "Intuit encourages employees to spin up products under incubation. In this program, we found a startup - FormFly - A SaaS platform for Tax Information Filing."
+        [[params.experience.list.items]]
+        details = "Led high performing & autonomous Engineering Team"
+        [[params.experience.list.items]]
+        details = "Assessed and managed risks & priorities"
+        [[params.experience.list.items]]
+        details = "Worked with cross functional groups to unblock hurdles"
+        [[params.experience.list.items]]
+        details = "Designed an event driven architecture for RESTFul APIs - using DynamoDB Streams"
+        [[params.experience.list.items]]
+        details = "Worked closely with Product, Security & Compliance teams"
+        [[params.experience.list.items]]
+        details = "Built event based performance testing suite in AWS using Lambda & generate reports"
+
+
+        [[params.experience.list]]
+        title = "Principle SW Engineer, QuickBooks SE"
+        dates = "May 2018 - Feb 2019"
+        company = "Intuit"
+        details = "Built and maintained Contractor invitation system between QuickBooks Online & QuickBooks Self Employed products. An ability for Small Business owners to invite vendors/contractors for sharing 1099 Documents, Direct Deposits & to manage W4 forms."
+        [[params.experience.list.items]]
+        details = "Architecture, Design, Implement, Mentor/Coach engineers in the team"
+
+
+
+        [[params.experience.list]]
+        title = "Principal SW Engineer/Architect, DevX"
+        dates = "Oct 2014 - Apr 2018"
+        company = "Intuit"
+        details = "Defined Target State Architecture for Intuit Developer Portal and Intuit App Store."
+        [[params.experience.list.items]]
+        details = "Decomposing the monolith from internal data centers into highly available micro services in AWS (Spring Boot, MySQL RDS, ElastiCache, ActiveMQ, S3, Lambda and EC2)."
+        [[params.experience.list.items]]
+        details = "Enabling the teams to move faster to AWS (Training, Mentoring, Building Shared Libraries)"
+        [[params.experience.list.items]]
+        details = "Providing Architecture for migrating Developers from OAuth 1 to OAuth 2"
+        [[params.experience.list.items]]
+        details = "Migrated Intuit AppConnect application to AWS to make it highly scalable & available. We had to move write heavy tables to DynamoDB for some cases, partitioned MySQL tables for few other scenarios"
+
+
+        [[params.experience.list]]
+        title = "Principal SW Engineer, Payroll"
+        dates = "Jan 2014 - Sep 2014"
+        company = "Intuit"
+        details = "Drove the initiative  - break the monolith - for QuickBooks Payroll"
+        [[params.experience.list.items]]
+        details = "Decomposed a logical slice of the application into RESTFul service - a pattern for the team to continue"
+
+        [[params.experience.list]]
+        title = "Staff SW Engineer, Infrastructure"
+        dates = "Aug 2011 - Dec 2013"
+        company = "Intuit"
+        [[params.experience.list.items]]
+        details = "Core contributor for building APIs for QuickBooks Desktop in the Cloud. An agent sitting on the user's desktop will take care of two way sync between Desktop and Intuit Cloud. This enabled 3rd party developers to build applications for QuickBooks Desktop customers."
+
+        [[params.experience.list]]
+        title = "Principal SW Engineer, Stores"
+        dates = "Apr 2011 - Aug 2011"
+        company = "NextTag"
+        details = "Core contributor of Nextag Stores redesign for PCI Compliance"
+
+        [[params.experience.list]]
+        title = "Sr. SW Engineer, Stores"
+        dates = "Jan 2010 - Apr 2011"
+        company = "NextTag"
+        details = "Led Payment System architecture/design/development/testing"
+        [[params.experience.list.items]]
+        details = "Built backend services using Spring, MySQL for Inventory Management System"
+
+
+        [[params.experience.list]]
+        title = "Director of Technology"
+        dates = "Dec 2007 - Dec 2009"
+        company = "Stylehive"
+        details = "Built the site for the reads with aggressive caching on top of MySQL DB. Writes are done via messaging infrastructure"
+
+        [[params.experience.list]]
+        title = "Software Development Manager"
+        dates = "Sep 2005 - Jun 2007"
+        company = "eBay"
+        details = "As a consultant, managed a team of 10 working with Product, Quality & Customer care teams"
+        [[params.experience.list.items]]
+        details = "Dynamic sales for eBay Stores Items using messaging infrastructure. This used proprietary messaging infrastructure to provide discounts to store items on a schedule. Learnt about distributed locking & how to use Oracle as a non-relational DB(no joins)"
+        [[params.experience.list.items]]
+        details = "Multifactor Authentication with a third party service for eBay Trust & Safety"
+
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "Oct 1996 - Nov 2007"
+        company = "Wipro, MindTree"
+        details = "As a consultant worked for multiple clients such as Allied Signal, Franklin Templeton, GE & Schlumberger to name a few. Can provide more details as needed"
+
+
+    [params.projects]
+        enable = false
+
+    [params.information]
+        enable = false
+
+        [[params.information.list]]
+        title = "Papers"
+        [[params.information.list.items]]
+        details = "2018 · Lorem Ipsum"
+        [[params.information.list.items]]
+        details = "2016 · Sed Fringilla"
+
+        [[params.information.list]]
+        title = "Interests"
+        details = "Climbing, Snowboarding, Photography, Travelling"
+
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/avanathan"
+        title = "avanathan"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/avanathan"
+        title = "avanathan"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/the_arun"
+        title = "@the_arun"
