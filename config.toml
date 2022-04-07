@@ -1,8 +1,8 @@
 # Page settings
 
-baseURL = "http://example.org/"
+baseURL = "https://avanathan.github.io/"
 languageCode = "en"
-title = ""
+title = "Arun Avanathan"
 theme = "hugo-resume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
