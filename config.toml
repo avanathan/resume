@@ -37,23 +37,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.skills.list]]
-        title = "Technical"
+#        title = ""
         [[params.skills.list.items]]
-        details = "Lang - Java, Bash"
-        [[params.skills.list.items]]
-        details = "Cloud - AWS, K8S"
-        [[params.skills.list.items]]
-        details = "DB - MySQL, DynamoDB"
-        [[params.skills.list.items]]
-        details = "DI Containers - Spring Boot"
-        [[params.skills.list.items]]
-        details = "SOA - REST, GraphQL"
-        [[params.skills.list.items]]
-        details = "Design & Develop SaaS products"
-        [[params.skills.list.items]]
-        details = "Expertise - AuthN & AuthZ, Event Drvien Design, Distributed Computing"
-        [[params.skills.list.items]]
-        details = "Others - Async, Messaging, Batch Jobs"
+        details = "Java, Spring Boot, MySQL, AWS, K8S, DynamoDB, SQS, Kafka, Redis, Memcached, Bash, Large Scale Distributed Systems, Backend engineering, REST, GraphQL, SaaS, Architecting Monolith to MicroServices, Batch/Cron jobs, Building Async, Event/Message Driven infrastructures, AuthN/AuthZ platforms"
 
 
     [params.education]
@@ -66,7 +52,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.education.list]]
         degree = "BSc Maths and Physics"
         university = "University of Mysore"
-        dates = "1993 - 1996"
+        dates = "1989 - 1993"
 
     [params.awards]
         enable = false
@@ -109,7 +95,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Summary"
         details = "Experienced in building successful engineering teams, architecting highly scalable API services using Open Source technologies such as Java, Spring Boot. Building cloud based services on AWS. Strong believer of action, automation & speed."
         [[params.summary.list.items]]
-        details = "Enjoys mentoring high performance engineering teams for 8+ years"
+        details = "Mentoring high performance engineering teams for 8+ years"
         [[params.summary.list.items]]
         details = "Has been architecting (& built) distributed applications in AWS for 7+ years"
         [[params.summary.list.items]]
@@ -122,6 +108,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Architected & led teams to migrate monoliths to Microservices to increase time to market, engineering productivity"
         [[params.summary.list.items]]
         details = "Exhibits boundaryless leadership working across Business units/teams"
+        [[params.summary.list.items]]
+        details = "Has experience working for Startups to launch rocket ships for the customers"
 
 
     [params.experience]
@@ -131,7 +119,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Principal SW Engineer, QuickBooks"
         dates = "Nov 2020 - Present"
         company = "Intuit"
-        details = "Driving engineering roadmap for QuickBooks Online related to AuthZ/AuthN"
+        details = "QuickBooks Online is a large composite application with more than 5B AuthZ decisions per day. I'm leading the team decoupling AuthZ logic from Business logic using OPA based decision service"
         [[params.experience.list.items]]
         details = "Collaborating with central identity, security & other cross functional teams towards the common goal"
         [[params.experience.list.items]]
@@ -139,11 +127,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list.items]]
         details = "Influencing a team of ~180 engineers to use AuthZ in a consistent way towards target state"
         [[params.experience.list.items]]
-        details = "Reduced service level dependencies by 60% for QuickBooks online related to identity"
+        details = "Reduced service level dependencies(by 60%) for QuickBooks online"
         [[params.experience.list.items]]
-        details = "Built core libraries to enable dynamic throttling for dependent services - Spring Cloud Config, Consistent Hashing"
+        details = "Used aggressive caching & creative solutions to reduce the number of decisions from 5B to 300M"
         [[params.experience.list.items]]
-        details = "Learnt about Open Policy Agent (OPA) & how to use it for granular permissions such as ABAC"        
+        details = "Switching over to new service is also controlled by a consistent hash based switch which can let us enable traffic based on product type, region, api & other attributes. Here, I built core java libraries to enable dynamic throttling for dependent services - Spring Cloud Config, Consistent Hashing"        
+        [[params.experience.list.items]]
+        details = "Used Open Policy Agent (OPA) for granular permissions (ABAC)"        
+        [[params.experience.list.items]]
+        details = "Working with cross domain PE/Architects on Standards & RFCs"        
 
 
         [[params.experience.list]]
@@ -163,16 +155,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Worked closely with Product, Security & Compliance teams"
         [[params.experience.list.items]]
         details = "Built event based performance testing suite in AWS using Lambda & generate reports"
+        [[params.experience.list.items]]
+        details = "Didn’t grow large enough as expected. At the time we had < 100K transactions per day."
 
 
         [[params.experience.list]]
         title = "Principal SW Engineer, QuickBooks SE"
         dates = "May 2018 - Feb 2019"
         company = "Intuit"
-        details = "Built and maintained Contractor invitation system between QuickBooks Online & QuickBooks Self Employed products. An ability for Small Business owners to invite vendors/contractors for sharing 1099 Documents, Direct Deposits & to manage W4 forms."
-        [[params.experience.list.items]]
-        details = "Architecture, Design, Implement, Mentor/Coach engineers in the team"
-
+        details = "Built and maintained Contractor invitation system between QuickBooks Online & QuickBooks Self Employed products. An ability for Small Business owners to invite vendors/contractors for sharing 1099 Documents, Direct Deposits & to manage W4 forms. This is a small scale but complex infrastructure dealing with a few thousand events per day. But I learnt more about what customers are looking for & how 1099 forms are used for tax filing. This led me to my next gig - FormFly - listed above."
 
 
         [[params.experience.list]]
@@ -187,7 +178,9 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list.items]]
         details = "Providing Architecture for migrating Developers from OAuth 1 to OAuth 2"
         [[params.experience.list.items]]
-        details = "Migrated Intuit AppConnect application to AWS to make it highly scalable & available. We had to move write heavy tables to DynamoDB for some cases, partitioned MySQL tables for few other scenarios"
+        details = "Scaling AppConnect - We moved this application to AWS to make it highly scalable & available. We had to move heavy tables to DynamoDB for some cases, partitioned MySQL tables for few other scenarios - Few million log events per day - but over time DB tables had grown into several billions records & we had to partition."
+        [[params.experience.list.items]]
+        details = "Built a 3rd party webhooks platform (20 MM events per day) using Spring, JMS, Redis & MySQL powered by Jetty."
 
 
         [[params.experience.list]]
@@ -197,25 +190,24 @@ googleAnalytics = "UA-XXXXXXX-Y"
         details = "Drove the initiative  - break the monolith - for QuickBooks Payroll"
         [[params.experience.list.items]]
         details = "Decomposed a logical slice of the application into RESTFul service - a pattern for the team to continue"
+        [[params.experience.list.items]]
+        details = "Trained existing developers on the nuances of microservices & why that is the direction we need to head"
 
         [[params.experience.list]]
         title = "Staff SW Engineer, Infrastructure"
         dates = "Aug 2011 - Dec 2013"
         company = "Intuit"
+        details = ""
         [[params.experience.list.items]]
-        details = "Core contributor for building APIs for QuickBooks Desktop in the Cloud. An agent sitting on the user's desktop will take care of two way sync between Desktop and Intuit Cloud. This enabled 3rd party developers to build applications for QuickBooks Desktop customers."
+        details = "At Intuit Partner Platform - third party developer platform for QuickBooks -  I was the core contributor for building APIs for QuickBooks Desktop in the Cloud. An agent plugin (Mobilink) in QuickBooks Desktop application will take care of two way sync between desktop and Mobilink Server. I was responsible for building the JMS messaging backbone to sync data from Mobilink Server to Intuit cloud. This enabled 3rd party developers to build applications for QuickBooks Desktop customers. This again is a large Java 3 tier application in Intuit Data Center with Oracle, Tomcat & Apache HTTP Server."
 
         [[params.experience.list]]
         title = "Principal SW Engineer, Stores"
-        dates = "Apr 2011 - Aug 2011"
+        dates = "Jan 2010 - Aug 2011"
         company = "NextTag"
-        details = "Core contributor of Nextag Stores redesign for PCI Compliance"
-
-        [[params.experience.list]]
-        title = "Sr. SW Engineer, Stores"
-        dates = "Jan 2010 - Apr 2011"
-        company = "NextTag"
-        details = "Led Payment System architecture/design/development/testing"
+        details = ""
+        [[params.experience.list.items]]
+        details = "Core contributor of Nextag Stores redesign for PCI Compliance. At this time my contribution was mainly around getting ready for PCI Level 2 Compliance."
         [[params.experience.list.items]]
         details = "Built backend services using Spring, MySQL for Inventory Management System"
 
@@ -224,7 +216,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Director of Technology"
         dates = "Dec 2007 - Dec 2009"
         company = "Stylehive"
-        details = "Built the site for the reads with aggressive caching on top of MySQL DB. Writes are done via messaging infrastructure"
+        [[params.experience.list.items]]
+        details = "Built the social networking site for the reads top of MySQL DB (WordPress Schema). "
+        [[params.experience.list.items]]
+        details = "Writes are done via JMS messaging infrastructure."
+        [[params.experience.list.items]]
+        details = "Content writers use Wordpress admin tools to write content."
+        [[params.experience.list.items]]
+        details = "Think of this as an early version of Pinterest for Fashion enthusiasts."
+
 
         [[params.experience.list]]
         title = "Software Development Manager"
