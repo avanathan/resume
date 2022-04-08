@@ -88,7 +88,7 @@
                                         <p>Experienced in building successful engineering teams, architecting highly scalable API services using Open Source technologies such as Java, Spring Boot. Building cloud based services on AWS. Strong believer of action, automation &amp; speed.</p>
                                         <ul class="resume-list">
                                             
-                                            <li>Enjoys mentoring high performance engineering teams for 8+ years</li>
+                                            <li>Mentoring high performance engineering teams for 8+ years</li>
                                             
                                             <li>Has been architecting (&amp; built) distributed applications in AWS for 7+ years</li>
                                             
@@ -101,6 +101,8 @@
                                             <li>Architected &amp; led teams to migrate monoliths to Microservices to increase time to market, engineering productivity</li>
                                             
                                             <li>Exhibits boundaryless leadership working across Business units/teams</li>
+                                            
+                                            <li>Has experience working for Startups to launch rocket ships for the customers</li>
                                             
                                         </ul>
                                     </div>
@@ -124,7 +126,7 @@
                                         <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Intuit | Nov 2020 - Present</div>
                                     </div>
                                     <div class="item-content">
-                                        <p>Driving engineering roadmap for QuickBooks Online related to AuthZ/AuthN</p>
+                                        <p>QuickBooks Online is a large composite application with more than 5B AuthZ decisions per day. I&rsquo;m leading the team decoupling AuthZ logic from Business logic using OPA based decision service</p>
                                         <ul class="resume-list">
                                             
                                             <li>Collaborating with central identity, security &amp; other cross functional teams towards the common goal</li>
@@ -133,11 +135,15 @@
                                             
                                             <li>Influencing a team of ~180 engineers to use AuthZ in a consistent way towards target state</li>
                                             
-                                            <li>Reduced service level dependencies by 60% for QuickBooks online related to identity</li>
+                                            <li>Reduced service level dependencies(by 60%) for QuickBooks online</li>
                                             
-                                            <li>Built core libraries to enable dynamic throttling for dependent services - Spring Cloud Config, Consistent Hashing</li>
+                                            <li>Used aggressive caching &amp; creative solutions to reduce the number of decisions from 5B to 300M</li>
                                             
-                                            <li>Learnt about Open Policy Agent (OPA) &amp; how to use it for granular permissions such as ABAC</li>
+                                            <li>Switching over to new service is also controlled by a consistent hash based switch which can let us enable traffic based on product type, region, api &amp; other attributes. Here, I built core java libraries to enable dynamic throttling for dependent services - Spring Cloud Config, Consistent Hashing</li>
+                                            
+                                            <li>Used Open Policy Agent (OPA) for granular permissions (ABAC)</li>
+                                            
+                                            <li>Working with cross domain PE/Architects on Standards &amp; RFCs</li>
                                             
                                         </ul>
                                     </div>
@@ -164,6 +170,8 @@
                                             
                                             <li>Built event based performance testing suite in AWS using Lambda &amp; generate reports</li>
                                             
+                                            <li>Didn’t grow large enough as expected. At the time we had &lt; 100K transactions per day.</li>
+                                            
                                         </ul>
                                     </div>
                                 </div>
@@ -174,10 +182,8 @@
                                         <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Intuit | May 2018 - Feb 2019</div>
                                     </div>
                                     <div class="item-content">
-                                        <p>Built and maintained Contractor invitation system between QuickBooks Online &amp; QuickBooks Self Employed products. An ability for Small Business owners to invite vendors/contractors for sharing 1099 Documents, Direct Deposits &amp; to manage W4 forms.</p>
+                                        <p>Built and maintained Contractor invitation system between QuickBooks Online &amp; QuickBooks Self Employed products. An ability for Small Business owners to invite vendors/contractors for sharing 1099 Documents, Direct Deposits &amp; to manage W4 forms. This is a small scale but complex infrastructure dealing with a few thousand events per day. But I learnt more about what customers are looking for &amp; how 1099 forms are used for tax filing. This led me to my next gig - FormFly - listed above.</p>
                                         <ul class="resume-list">
-                                            
-                                            <li>Architecture, Design, Implement, Mentor/Coach engineers in the team</li>
                                             
                                         </ul>
                                     </div>
@@ -198,7 +204,9 @@
                                             
                                             <li>Providing Architecture for migrating Developers from OAuth 1 to OAuth 2</li>
                                             
-                                            <li>Migrated Intuit AppConnect application to AWS to make it highly scalable &amp; available. We had to move write heavy tables to DynamoDB for some cases, partitioned MySQL tables for few other scenarios</li>
+                                            <li>Scaling AppConnect - We moved this application to AWS to make it highly scalable &amp; available. We had to move heavy tables to DynamoDB for some cases, partitioned MySQL tables for few other scenarios - Few million log events per day - but over time DB tables had grown into several billions records &amp; we had to partition.</li>
+                                            
+                                            <li>Built a 3rd party webhooks platform (20 MM events per day) using Spring, JMS, Redis &amp; MySQL powered by Jetty.</li>
                                             
                                         </ul>
                                     </div>
@@ -215,6 +223,8 @@
                                             
                                             <li>Decomposed a logical slice of the application into RESTFul service - a pattern for the team to continue</li>
                                             
+                                            <li>Trained existing developers on the nuances of microservices &amp; why that is the direction we need to head</li>
+                                            
                                         </ul>
                                     </div>
                                 </div>
@@ -228,7 +238,7 @@
                                         <p></p>
                                         <ul class="resume-list">
                                             
-                                            <li>Core contributor for building APIs for QuickBooks Desktop in the Cloud. An agent sitting on the user&rsquo;s desktop will take care of two way sync between Desktop and Intuit Cloud. This enabled 3rd party developers to build applications for QuickBooks Desktop customers.</li>
+                                            <li>At Intuit Partner Platform - third party developer platform for QuickBooks -  I was the core contributor for building APIs for QuickBooks Desktop in the Cloud. An agent plugin (Mobilink) in QuickBooks Desktop application will take care of two way sync between desktop and Mobilink Server. I was responsible for building the JMS messaging backbone to sync data from Mobilink Server to Intuit cloud. This enabled 3rd party developers to build applications for QuickBooks Desktop customers. This again is a large Java 3 tier application in Intuit Data Center with Oracle, Tomcat &amp; Apache HTTP Server.</li>
                                             
                                         </ul>
                                     </div>
@@ -237,24 +247,13 @@
                                 <div class="item mb-3">
                                     <div class="item-heading row align-items-center mb-2">
                                         <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Principal SW Engineer, Stores</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">NextTag | Apr 2011 - Aug 2011</div>
+                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">NextTag | Jan 2010 - Aug 2011</div>
                                     </div>
                                     <div class="item-content">
-                                        <p>Core contributor of Nextag Stores redesign for PCI Compliance</p>
+                                        <p></p>
                                         <ul class="resume-list">
                                             
-                                        </ul>
-                                    </div>
-                                </div>
-                                
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <h4 class="item-title col-12 col-md-6 col-lg-6 mb-2 mb-md-0">Sr. SW Engineer, Stores</h4>
-                                        <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">NextTag | Jan 2010 - Apr 2011</div>
-                                    </div>
-                                    <div class="item-content">
-                                        <p>Led Payment System architecture/design/development/testing</p>
-                                        <ul class="resume-list">
+                                            <li>Core contributor of Nextag Stores redesign for PCI Compliance. At this time my contribution was mainly around getting ready for PCI Level 2 Compliance.</li>
                                             
                                             <li>Built backend services using Spring, MySQL for Inventory Management System</li>
                                             
@@ -268,8 +267,16 @@
                                         <div class="item-meta col-12 col-md-6 col-lg-6 text-muted text-left text-md-right">Stylehive | Dec 2007 - Dec 2009</div>
                                     </div>
                                     <div class="item-content">
-                                        <p>Built the site for the reads with aggressive caching on top of MySQL DB. Writes are done via messaging infrastructure</p>
+                                        <p></p>
                                         <ul class="resume-list">
+                                            
+                                            <li>Built the social networking site for the reads top of MySQL DB (WordPress Schema).</li>
+                                            
+                                            <li>Writes are done via JMS messaging infrastructure.</li>
+                                            
+                                            <li>Content writers use Wordpress admin tools to write content.</li>
+                                            
+                                            <li>Think of this as an early version of Pinterest for Fashion enthusiasts.</li>
                                             
                                         </ul>
                                     </div>
@@ -337,7 +344,7 @@
                                     <li class="mb-3">
                                         <div class="resume-degree font-weight-bold">BSc Maths and Physics</div>
                                         <div class="resume-degree-org text-muted">University of Mysore</div>
-                                        <div class="resume-degree-time text-muted">1993 - 1996</div>
+                                        <div class="resume-degree-time text-muted">1989 - 1993</div>
                                     </li>
                                     
                                 </ul>
@@ -356,24 +363,10 @@
 
                                 
                                 <div class="item">
-                                    <h4 class="item-title">Technical</h4>
+                                    <h4 class="item-title"></h4>
                                     <ul class="list-unstyled resume-skills-list">
                                         
-                                        <li class="mb-2">Lang - Java, Bash</li>
-                                        
-                                        <li class="mb-2">Cloud - AWS, K8S</li>
-                                        
-                                        <li class="mb-2">DB - MySQL, DynamoDB</li>
-                                        
-                                        <li class="mb-2">DI Containers - Spring Boot</li>
-                                        
-                                        <li class="mb-2">SOA - REST, GraphQL</li>
-                                        
-                                        <li class="mb-2">Design &amp; Develop SaaS products</li>
-                                        
-                                        <li class="mb-2">Expertise - AuthN &amp; AuthZ, Event Drvien Design, Distributed Computing</li>
-                                        
-                                        <li class="mb-2">Others - Async, Messaging, Batch Jobs</li>
+                                        <li class="mb-2">Java, Spring Boot, MySQL, AWS, K8S, DynamoDB, SQS, Kafka, Redis, Memcached, Bash, Large Scale Distributed Systems, Backend engineering, REST, GraphQL, SaaS, Architecting Monolith to MicroServices, Batch/Cron jobs, Building Async, Event/Message Driven infrastructures, AuthN/AuthZ platforms</li>
                                         
                                     </ul>
                                 </div>
