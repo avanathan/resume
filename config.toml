@@ -1,6 +1,6 @@
 # Page settings
 
-baseURL = "https://avanathan.github.io/"
+baseURL = "https://avanathan.github.io/resume"
 languageCode = "en"
 title = "Arun Avanathan"
 theme = "hugo-resume-theme"
@@ -9,7 +9,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 [params]
     author = "CowboySmall"
-    description = "Arun Avanathan - Principle Software Engineer, Intuit"
+    description = "Arun Avanathan - Principal Software Engineer, Intuit"
 
     primaryColor = "#11BA89"
     textPrimaryColor = "#292929"
@@ -17,7 +17,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "Arun Avanathan"
-        tagline = "Principle Software Engineer, Intuit"
+        tagline = "Principal Software Engineer, Intuit"
 #        avatar = "arun-avatar.png"
 
     [params.contact]
@@ -128,7 +128,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.experience.list]]
-        title = "Principle SW Engineer, QuickBooks"
+        title = "Principal SW Engineer, QuickBooks"
         dates = "Nov 2020 - Present"
         company = "Intuit"
         details = "Driving engineering roadmap for QuickBooks Online related to AuthZ/AuthN"
@@ -147,7 +147,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
         [[params.experience.list]]
-        title = "Principle SW Engineer/Manager, FormFly"
+        title = "Principal SW Engineer/Manager, FormFly"
         dates = "Feb 2019 - Oct 2020"
         company = "Intuit"
         details = "Intuit encourages employees to spin up products under incubation. In this program, we found a startup - FormFly - A SaaS platform for Tax Information Filing."
@@ -166,7 +166,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
         [[params.experience.list]]
-        title = "Principle SW Engineer, QuickBooks SE"
+        title = "Principal SW Engineer, QuickBooks SE"
         dates = "May 2018 - Feb 2019"
         company = "Intuit"
         details = "Built and maintained Contractor invitation system between QuickBooks Online & QuickBooks Self Employed products. An ability for Small Business owners to invite vendors/contractors for sharing 1099 Documents, Direct Deposits & to manage W4 forms."
